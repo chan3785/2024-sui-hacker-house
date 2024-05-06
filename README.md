@@ -28,6 +28,10 @@ sui client 설치 및 환경 구성
 #sui client 설치
 brew install sui
 
+# 윈도우 환경에서
+choco install sui (chocolatey 설치 필요)
+
+
 #sui client 실행시 지갑 생성(key scheme 등 설정, 나오는 니모닉을 sui wallet chrome extension에 넣는다)
 sui client
 
@@ -77,6 +81,7 @@ cd front
 #실행
 yarn
 yarn dev
+npm run dev
 ```
 
 지갑 연결
